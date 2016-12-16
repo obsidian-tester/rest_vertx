@@ -55,7 +55,7 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-stack-depchain</artifactId>
+        <artifactId>vertx-dependencies</artifactId>
         <version>${vertx-version}</version>
         <type>pom</type>
         <scope>import</scope>
@@ -191,6 +191,19 @@
       <id>redhat-build</id>
       <name>Red Hat EarlyAccess Repository</name>
       <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
+      <layout>default</layout>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>redhat-internal</id>
+      <name>Red Hat Internal Repository</name>
+      <url>http://download.lab.bos.redhat.com/brewroot/repos/jb-vertx-3.3-maven-build/latest/maven/</url>
       <layout>default</layout>
       <releases>
         <enabled>true</enabled>
