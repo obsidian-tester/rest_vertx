@@ -39,7 +39,7 @@
     <fabric8.maven.plugin.version>3.1.92</fabric8.maven.plugin.version>
     <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
     <maven-failsafe-plugin.version>2.19.1</maven-failsafe-plugin.version>
-    <vertx-maven-plugin.version>1.0.0</vertx-maven-plugin.version>
+    <vertx-maven-plugin.version>1.0.1</vertx-maven-plugin.version>
 
     <vertx.verticle>org.jboss.obsidian.quickstart.RestApplication</vertx.verticle>
   </properties>
@@ -80,6 +80,7 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-unit</artifactId>
+      <version>3.3.3</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -203,7 +204,7 @@
     <repository>
       <id>redhat-internal</id>
       <name>Red Hat Internal Repository</name>
-      <url>http://download.lab.bos.redhat.com/brewroot/repos/jb-vertx-3.3-maven-build/latest/maven/</url>
+      <url>http://download-node-02.eng.bos.redhat.com/brewroot/repos/jb-vertx-3.3-maven-build/latest/maven/</url>
       <layout>default</layout>
       <releases>
         <enabled>true</enabled>
