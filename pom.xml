@@ -33,7 +33,7 @@
     <java.version>1.8</java.version>
 
     <fabric8.version>2.2.176</fabric8.version>
-    <vertx-version>3.3.3</vertx-version>
+    <vertx-version>3.3.3.redhat-3</vertx-version>
     <slf4j.version>1.7.21</slf4j.version>
 
     <fabric8.maven.plugin.version>3.2.7</fabric8.maven.plugin.version>
@@ -55,7 +55,7 @@
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
-        <artifactId>vertx-stack-depchain</artifactId>
+        <artifactId>vertx-dependencies</artifactId>
         <version>${vertx-version}</version>
         <type>pom</type>
         <scope>import</scope>
@@ -199,5 +199,12 @@
     <url>http://github.com/obsidian-toaster/quick_rest_vertx</url>
     <tag>HEAD</tag>
   </scm>
+
+  <repositories>
+    <repository>
+      <id>redhat</id>
+      <url>http://download-node-02.eng.bos.redhat.com/devel/candidates/jboss/obsidian/OBSIDIAN-VERTX-3.3.3-DR3/maven-repository/maven-repository</url>
+    </repository>
+  </repositories>
 
 </project>
