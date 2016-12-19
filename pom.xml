@@ -33,7 +33,7 @@
     <java.version>1.8</java.version>
 
     <fabric8.version>2.2.170.redhat-000004</fabric8.version>
-    <vertx-version>3.3.3.redhat-2</vertx-version>
+    <vertx-version>3.3.3.redhat-3</vertx-version>
     <slf4j.version>1.7.21</slf4j.version>
 
     <fabric8.maven.plugin.version>3.1.92</fabric8.maven.plugin.version>
@@ -80,7 +80,6 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-unit</artifactId>
-      <version>3.3.3</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -204,7 +203,7 @@
     <repository>
       <id>redhat-internal</id>
       <name>Red Hat Internal Repository</name>
-      <url>http://download-node-02.eng.bos.redhat.com/brewroot/repos/jb-vertx-3.3-maven-build/latest/maven/</url>
+      <url>http://download-node-02.eng.bos.redhat.com/devel/candidates/jboss/obsidian/OBSIDIAN-VERTX-3.3.3-DR3/maven-repository/maven-repository/</url>
       <layout>default</layout>
       <releases>
         <enabled>true</enabled>
