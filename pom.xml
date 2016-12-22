@@ -210,7 +210,7 @@
     <repository>
       <id>redhat-internal</id>
       <name>Red Hat Internal Repository</name>
-      <url>http://download-node-02.eng.bos.redhat.com/devel/candidates/jboss/obsidian/OBSIDIAN-VERTX-3.3.3-DR3/maven-repository/maven-repository/</url>
+      <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
       <layout>default</layout>
       <releases>
         <enabled>true</enabled>
